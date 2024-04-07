@@ -16,7 +16,7 @@
     <link href="{{ asset('aside/css/style.css') }}" rel="stylesheet" />
     <link href="{{ asset('aside/css/owl.carousel.min.css') }}" rel="stylesheet" />
     <link href="{{ asset('aside/fonts/icomoon/style.css') }}" rel="stylesheet" />
-    <title>MyApp</title>
+    <title>TechWave</title>
 </head>
 
 <body>
@@ -30,11 +30,11 @@
         </div>
         <div class="side-inner">
             <div class="profile">
-                <img class="mb-4"
-                    src="https://www.asirox.com/wp-content/uploads/2022/07/pngtree-user-vector-avatar-png-image_1541962.jpeg"
-                    alt="" width="72" height="57">
-                <h3 class="name">Craig David</h3>
-                <span class="country">Web Designer</span>
+
+                <img class="mb-4" src="{{ asset('aside/images/img1.png') }}" alt="" width="72" height="57">
+
+                <h3 class="name">TechWave</h3>
+                <span class="country">Phone Store </span>
             </div>
 
 

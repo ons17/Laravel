@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.104.2">
-    <title>MyApp</title>
+    <title>TechWave</title>
 
     <link href="{{asset('/assets//dist/css/signin.css')}}" rel="stylesheet">
     <link href="{{asset('/assets/dist/css/bootstrap.min.css')}}" rel="stylesheet">
@@ -23,9 +23,7 @@
 
             @csrf
 
-            <img class="mb-4"
-                src="https://www.asirox.com/wp-content/uploads/2022/07/pngtree-user-vector-avatar-png-image_1541962.jpeg"
-                alt="" width="72" height="57">
+            <img class="mb-4" src="{{ asset('aside/images/img1.png') }}" alt="" width="350" height="100">
             <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
             <div class="form-floating">

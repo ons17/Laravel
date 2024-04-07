@@ -16,7 +16,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css"
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
-    <title>MyApp</title>
+    <title>TechWave</title>
     <link href="{{asset('/assets/dist/css/table.css')}}" rel="stylesheet">
     <link href="{{asset('/assets/dist/css/table.css')}}" rel="stylesheet">
 </head>
@@ -24,7 +24,6 @@
 @section('content')
 
 <body>
-    git init
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6 col-md-8">
