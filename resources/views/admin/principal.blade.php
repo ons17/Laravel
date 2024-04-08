@@ -131,9 +131,7 @@
     <script src="{{ asset('aside/js/main.js') }}"></script>
 
 
-
     @yield('content')
-
 </body>
 
 </html>
