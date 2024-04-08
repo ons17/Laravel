@@ -74,11 +74,12 @@ class productController extends Controller
         $product = Product::find($id);
 
         if (!$product) {
-            return redirect()->route('product.index')->with('error', 'Produit non trouvé');
+            return redirect()->route('product.index')->with('error', 'Product not found');
         }
 
-        return view('product.show', compact('product'));
+        return view('admin.product.show', compact('product'));
     }
+
 
     /**
      * Show the form for editing the specified resource.
@@ -163,5 +164,5 @@ class productController extends Controller
         }
     }
 
-    
+
 }

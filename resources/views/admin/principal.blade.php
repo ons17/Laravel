@@ -17,6 +17,7 @@
     <link href="{{ asset('aside/css/owl.carousel.min.css') }}" rel="stylesheet" />
     <link href="{{ asset('aside/fonts/icomoon/style.css') }}" rel="stylesheet" />
     <title>TechWave</title>
+
 </head>
 
 <body>
@@ -131,9 +132,8 @@
 
 
 
-
-
     @yield('content')
+
 </body>
 
 </html>

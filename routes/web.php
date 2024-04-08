@@ -39,6 +39,8 @@ Route::delete('/products/{id}', [productController::class, 'destroy'])->name('pr
 Route::post('/products/{id}/confirm-delete', [productController::class, 'confirmDelete'])->name('product.confirm-delete');
 Route::delete('/products/{id}/confirm-delete', [productController::class, 'processDeleteConfirmation'])->name('product.process-delete-confirmation');
 Route::get('/products/{id}/details', [productController::class, 'details'])->name('product.details');
+Route::get('/admin/product/{id}', [ProductController::class, 'show'])->name('product.show');
+Route::get('/products/{id}/details', [productController::class, 'show'])->name('product.show');
 
 //Route::get('/test', function () {
 //  $message = "Bonjour tt le monde ";
