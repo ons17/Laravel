@@ -22,7 +22,7 @@ class productController extends Controller
             ->when($query, function ($queryBuilder) use ($query) {
                 return $queryBuilder->where('name', 'like', '%' . $query . '%');
             })
-            ->paginate(10);
+            ->paginate(2);
 
         // Check if products are found or not
         if ($products->isEmpty()) {

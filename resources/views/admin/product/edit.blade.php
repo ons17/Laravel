@@ -25,9 +25,7 @@
             <!-- Use PUT method for update -->
             @csrf
 
-            <img class="mb-4"
-                src="www.asirox.com/wp-content/uploads/2022/07/pngtree-user-vector-avatar-png-image_1541962.jpeg" alt=""
-                width="72" height="57">
+            <img class="mb-4" src="{{ asset('aside/images/img1.png') }}" alt="" width="72" height="57">
             <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
             <div class="form-floating">
@@ -46,6 +44,7 @@
                     value="{{$product->qte}}"> <!-- Quantity field -->
                 <label for="floatingInput">Quantity</label>
             </div>
+
             <div class="checkbox mb-3">
                 <label>
                     <input type="checkbox" value="remember-me"> Remember me

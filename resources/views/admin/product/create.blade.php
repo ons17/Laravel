@@ -45,9 +45,11 @@
                 <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" name="qte">
                 <label for="floatingInput">Quantity</label>
             </div>
+
             @error('qte')
             <div class="alert alert-danger">{{ $message }}</div>
             @enderror
+
             <div class="checkbox mb-3">
                 <label>
                     <input type="checkbox" value="remember-me"> Remember me
